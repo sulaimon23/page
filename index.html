@@ -37,6 +37,39 @@
 				<h4><i class="fa fa-key"></i><a href="#">SIGN-UP</a></h4>
 			</div>
 
+			<!-- TOGGLER  -->
+
+			<div>
+
+				<div class="presser" id="drop">
+					<span><hr></span>
+					<span><hr></span>
+					<span><hr></span>
+				</div>
+
+				<!-- TOGGLE ITEM -->
+
+			<section id="toggle-wrapper">
+				<div id="toggle">
+					<ul>
+						<li><a href="#">SMART ACTION</a></li>
+					<li><a href="#">SERVICES PRODUCTION</a></li>
+					<li><a href="#">SMART SHIPMENT</a></li>
+					<li><a href="#">TRACK SHIPMENT</a></li>
+					<hr>
+					<h4><i class="fa fa-list"></i><a href="#">REGISTERATION</a></h4><br>
+					<h4><i class="fa fa-key"></i><a href="#">SIGN-UP</a></h4>
+					<hr>
+						<div id="times">
+							&times;
+						</div>
+					</ul>
+				</div>
+				<div class="clr"></div>
+			</section>
+
+		</div>
+			
 	</div>
 </div>
 <!-- =============================
@@ -105,7 +138,7 @@
 		<div class="customer-text">
 			<div>
 				<h2>OUR CARE FOR CUSTOMERS</h2>
-				<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste porro, vel libero hic corrupti impedit impedit impedit impedit impedit impedit V impedit impedit impedit impedit impedit impedit impedit impedit impedit impedit doloribus blanditiis totam quae at magnam beatae inventore illum. Iusto qui beatae nihil aspernatur consectetur.</P>
+				<P>Lorem ipsum dolor sit amet adipisicing elit. Iste porro, vel libero hic corrupti impedit impedit impedit impedit impedit impedit impedit impedit impedit doloribus blanditiis totam quae at magnam beatae inventore illum. Iusto qui beatae nihil aspernatur consectetur.</P>
 			</div>
 		</div>
 		<div class="customer-image">
@@ -138,35 +171,57 @@
 					<p style="color: #4a4a4a;"><em>monitoring your properties through out your lives</em></p>
 				</div>
 			</div>
-			<div>
+			<div class="choose">
 				<h4>Choose</h4>
 				<h4>How to Buy</h4>
 				<h4>FAQS</h4>
 			</div>
-			<div>
+			<div class="vehicle">
 				<h4>Vehicle Search</h4>
 				<h4>Contact us</h4>
 				<h4>Show up</h4>
 			</div>
+				<div class="clr"></div>
 			<div class="side">
 				<h3>+	1866 212-0011</h3>
 				<p style="color: #4a4a4a;">Monday - Friday 8am- 5am ET</p>
 				<h5>info@ondemandautos.sa</h5>
 			</div>
 		</div>
+		<section>
+			<div class="section">
+				<div>
+					Copyright &copy; 2020
+				</div>
+				<div>
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-google-plus"></i>
+					<i class="fab fa-twitter"></i>
+				</div>
+			</div>
+		</section>
 	</div>
 </footer>
-<section>
-	<div class="section">
-		<div>
-			Copyright &copy; 2020
-		</div>
-		<div>
-			<i class="fab fa-facebook"></i>
-			<i class="fab fa-google-plus"></i>
-			<i class="fab fa-twitter"></i>
-		</div>
-	</div>
-</section>
+
+
+
+<script>
+
+drop.addEventListener('click', crash)
+function crash(){
+  const drop = document.getElementById('drop');
+  const topWrap = document.getElementById('toggle-wrapper');
+  topWrap.style.display = 'inline'
+  times.addEventListener('click', open)
+function open() {
+  const times = document.getElementById('times');
+  topWrap.style.display = 'none';
+}
+}
+
+
+
+</script>
+
 </body>
 </html>
